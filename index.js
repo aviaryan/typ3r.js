@@ -110,6 +110,7 @@ function typ3r_convert(val){
 	return newVal
 }
 
+// Export
 if (typeof module !== 'undefined' && module.exports && typeof exports !== 'undefined'){
 	module.exports = typ3r_convert;
 }
