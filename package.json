@@ -1,0 +1,12 @@
+{
+  "name": "typ3r",
+  "version": "0.0.1",
+  "description": "Convert human friendly text to ghoul friendly text",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": "https://github.com/aviaryan/typ3r.js",
+  "author": "Avi Aryan",
+  "license": "MIT"
+}
