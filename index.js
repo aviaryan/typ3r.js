@@ -41,7 +41,7 @@ for (var key in completeWords){
 	words['([^a-z]|^)' + key + '(?=[^a-z])'] = '$1' + completeWords[key]
 }
 
-
+// chars substitution
 function convertChars(text){
 	var text = String(text)
 	var probab = 0.6
@@ -75,11 +75,12 @@ function loadSubstitutes(orig, newCh){
 	list = [newCh]
 	orig = orig.toLowerCase()
 	if (orig in chars) {
-		Array.prototype.push.apply(list, chars[orig]);
+		Array.prototype.push.apply(list, chars[orig])
 	}
 	return list
 }
 
+// single char replacement
 function convertSingleChar(text){
 	var upProbab = 0.5
 	var downProbab = 0.7
@@ -92,10 +93,10 @@ function convertSingleChar(text){
 
 		if (charCode >= 65 && charCode <= 90 && chance <= downProbab){
 			subs = loadSubstitutes(text[i], String.fromCharCode(charCode + 32))
-			newText += subs[Math.floor(Math.random() * subs.length)]; // random from list
+			newText += subs[Math.floor(Math.random() * subs.length)] // random from list
 		} else if (charCode >= 97 && charCode <= 122 && chance <= upProbab){
 			subs = loadSubstitutes(text[i], String.fromCharCode(charCode - 32))
-			newText += subs[Math.floor(Math.random() * subs.length)];
+			newText += subs[Math.floor(Math.random() * subs.length)]
 		} else {
 			newText += text[i]
 		}
@@ -104,6 +105,7 @@ function convertSingleChar(text){
 	return newText
 }
 
+// main typ3r converter function
 function typ3r_convert(val){
 	newVal = convertChars(val)
 	newVal = convertSingleChar(newVal)
@@ -112,5 +114,5 @@ function typ3r_convert(val){
 
 // Export
 if (typeof module !== 'undefined' && module.exports && typeof exports !== 'undefined'){
-	module.exports = typ3r_convert;
+	module.exports = typ3r_convert
 }
