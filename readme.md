@@ -4,14 +4,14 @@
 [![npm](https://img.shields.io/npm/dm/typ3r.svg)](https://www.npmjs.com/package/typ3r)
 [![npm](https://img.shields.io/npm/l/typ3r.svg)]()
 
-typ3r converts sane human readable text to ugly looking text.
+typ3r converts sane human readable text to ugly looking text. A web app using this library is available at [typ3r.aavi.me](http://typ3r.aavi.me/).
 
 Example
 
 #### Input
 
 ```
-This is a normal sane piece of text written by the author of this lib. 
+This is a normal sane piece of text written by the author of this lib.
 What you do with it is none of my business.
 ```
 
@@ -36,3 +36,7 @@ npm install typ3r
 const typ3r = require("typ3r")
 console.log(typ3r("I was a good text"))
 ```
+
+----
+
+🍻

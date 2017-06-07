@@ -1,6 +1,6 @@
 {
   "name": "typ3r",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert human friendly text to ghoul friendly text",
   "main": "index.js",
   "scripts": {
