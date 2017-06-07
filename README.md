@@ -1,5 +1,9 @@
 # typ3r.js
 
+[![npm](https://img.shields.io/npm/v/typ3r.svg)](https://www.npmjs.com/package/typ3r)
+[![npm](https://img.shields.io/npm/dm/typ3r.svg)](https://www.npmjs.com/package/typ3r)
+[![npm](https://img.shields.io/npm/l/typ3r.svg)]()
+
 typ3r converts sane human readable text to ugly looking text.
 
 Example
