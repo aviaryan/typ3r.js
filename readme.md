@@ -35,6 +35,7 @@ npm install typ3r
 ```js
 const typ3r = require("typ3r")
 console.log(typ3r("I was a good text"))
+// i wAs A gOOD t3xT
 ```
 
 ----
