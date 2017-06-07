@@ -89,7 +89,7 @@ function convertSingleChar(text){
 	for (var i=0; i < len; i++){
 		charCode = text[i].charCodeAt()
 		chance = Math.random()
-		
+
 		if (charCode >= 65 && charCode <= 90 && chance <= downProbab){
 			subs = loadSubstitutes(text[i], String.fromCharCode(charCode + 32))
 			newText += subs[Math.floor(Math.random() * subs.length)]; // random from list
