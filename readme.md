@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dm/typ3r.svg)](https://www.npmjs.com/package/typ3r)
 [![npm](https://img.shields.io/npm/l/typ3r.svg)]()
 
-typ3r converts sane human readable text to ugly looking text. A web app using this library is available at [typ3r.aavi.me](http://typ3r.aavi.me/).
+typ3r converts sane human readable text to a not s0 hUMaN Re@dAbLE t3xT. A web app using this library is available at [typ3r.aavi.me](http://typ3r.aavi.me/).
 
 Example
 
