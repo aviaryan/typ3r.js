@@ -6,7 +6,8 @@
 var chars = {
 	'o': ['0'],
 	'e': ['3'],
-	'i': ['1']
+	'i': ['1'],
+	'a': ['@']
 }
 // this is matched using regex (case-insensitive)
 // the following match anywhere in the text
